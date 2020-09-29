@@ -3,6 +3,7 @@
 
 import os
 import sys
+import matplotlib
 import unittest
 from collections import Counter
 
