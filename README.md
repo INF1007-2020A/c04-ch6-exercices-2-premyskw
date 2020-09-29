@@ -1,15 +1,13 @@
 
-# Moved to [https://github.com/INF1007-2020A/c04-ch6-2-exercices-premyskw](https://github.com/INF1007-2020A/c04-ch6-2-exercices-premyskw)
 
 ## Résultats
 Score | Critères
 --- | ---
-0/1 | Anagrammes
-0/1 | Doublons
-0/1 | Frequence
-0/1 | Notes
-0/1 | Ordre
-0/5 | **Total**
+1/1 | color_name_to_hex
+0/1 | compute_mse
+0/1 | create_list
+1/1 | list_to_dict
+2/4 | **Total**
 
 [Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Exercices en vrac (chapitre 6.2)
