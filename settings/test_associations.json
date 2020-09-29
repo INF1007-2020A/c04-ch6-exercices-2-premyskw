@@ -1,22 +1,18 @@
 {
-  "test_order": {
-    "name": "Ordre",
+  "test_list_to_dict": {
+    "name": "list_to_dict",
     "points": 1
   },
-  "test_anagram": {
-    "name": "Anagrammes",
+  "test_color_name_to_hex": {
+    "name": "color_name_to_hex",
     "points": 1
   },
-  "test_doubles": {
-    "name": "Doublons",
+  "test_create_list": {
+    "name": "create_list",
     "points": 1
   },
-  "test_grades": {
-    "name": "Notes",
-    "points": 1
-  },
-  "test_frequence": {
-    "name": "Frequence",
+  "test_compute_mse": {
+    "name": "compute_mse",
     "points": 1
   }
 }
