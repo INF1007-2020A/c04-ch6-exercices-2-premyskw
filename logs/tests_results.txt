@@ -1,0 +1,58 @@
+test_anagram (__main__.TestExercice) ... ERROR
+test_doubles (__main__.TestExercice) ... ERROR
+test_frequence (__main__.TestExercice) ... ERROR
+test_grades (__main__.TestExercice) ... ERROR
+test_order (__main__.TestExercice) ... ERROR
+
+======================================================================
+ERROR: test_anagram (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 36, in test_anagram
+    output = [exercice.anagrams(v) for v in words]
+  File "test_exercice.py", line 36, in <listcomp>
+    output = [exercice.anagrams(v) for v in words]
+AttributeError: module 'exercice' has no attribute 'anagrams'
+
+======================================================================
+ERROR: test_doubles (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 50, in test_doubles
+    output = [exercice.contains_doubles(v) for v in values]
+  File "test_exercice.py", line 50, in <listcomp>
+    output = [exercice.contains_doubles(v) for v in values]
+AttributeError: module 'exercice' has no attribute 'contains_doubles'
+
+======================================================================
+ERROR: test_frequence (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 78, in test_frequence
+    output = [exercice.frequence(s) for s in sentences]
+  File "test_exercice.py", line 78, in <listcomp>
+    output = [exercice.frequence(s) for s in sentences]
+AttributeError: module 'exercice' has no attribute 'frequence'
+
+======================================================================
+ERROR: test_grades (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 63, in test_grades
+    output = exercice.best_grades(value)
+AttributeError: module 'exercice' has no attribute 'best_grades'
+
+======================================================================
+ERROR: test_order (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 20, in test_order
+    output = [exercice.order(v) for v in values]
+  File "test_exercice.py", line 20, in <listcomp>
+    output = [exercice.order(v) for v in values]
+AttributeError: module 'exercice' has no attribute 'order'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (errors=5)
