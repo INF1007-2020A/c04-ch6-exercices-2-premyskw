@@ -23,9 +23,9 @@ def create_list() -> list:
     nombres =[]
     compteur = 0
     while not compteur >= 10000:
-        compteur += 1
         if compteur < 15 or compteur > 350:
             nombres.append(compteur)
+        compteur += 1           
     return nombres
 
 
