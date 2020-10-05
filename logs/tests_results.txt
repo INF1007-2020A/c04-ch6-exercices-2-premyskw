@@ -9,9 +9,13 @@ FAIL: test_compute_mse (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 65, in test_compute_mse
     'Erreur dans le calcul des MSE'
-AssertionError: {} != {'LR': 220.6, 'DNN': 14.0, 'RF': 1681.8}
-- {}
-+ {'DNN': 14.0, 'LR': 220.6, 'RF': 1681.8} : Erreur dans le calcul des MSE
+AssertionError: {'DNN': 0.0, 'LR': 0.0, 'RF': 0.0} != {'LR': 220.6, 'DNN': 14.0, 'RF': 1681.8}
+- {'DNN': 0.0, 'LR': 0.0, 'RF': 0.0}
+?         ^            ^        ^ ^
+
++ {'DNN': 14.0, 'LR': 220.6, 'RF': 1681.8}
+?         ^^          ++  ^        ^^^^ ^
+ : Erreur dans le calcul des MSE
 
 ----------------------------------------------------------------------
 Ran 4 tests in 0.003s
